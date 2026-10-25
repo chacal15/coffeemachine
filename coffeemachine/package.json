@@ -1,0 +1,20 @@
+{
+  "name": "coffeemachine",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "demo": "node src/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "Coffee machine mini project - Test Driven Development (simcap/coffeemachine)",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
